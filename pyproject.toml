@@ -14,7 +14,7 @@ description = 'Brain segmentation across the first years of life'
 dynamic = ['version']
 license = {text = 'MIT'}
 name = 'babyseg'
-requires-python = '>=3.11'
+requires-python = '>=3.8'
 urls.homepage = 'https://babyseg.io'
 
 [project.optional-dependencies]
