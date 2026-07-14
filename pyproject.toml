@@ -8,7 +8,7 @@ dependencies = [
     'katy @ git+https://github.com/Ash-Bal/katy.git',
     'nibabel',
     'torch>=2.7',
-    'voxel @ https://github.com/dalcalab/voxel/archive/b32fa86ac2330a7608b246d23a1a763db02caf70.zip',
+    'voxel @ git+https://github.com/Ash-Bal/voxel.git',
     ]
 description = 'Brain segmentation across the first years of life'
 dynamic = ['version']
