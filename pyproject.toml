@@ -12,7 +12,7 @@ dependencies = [
     ]
 description = 'Brain segmentation across the first years of life'
 dynamic = ['version']
-license = 'MIT'
+license = {text = 'MIT'}
 name = 'babyseg'
 requires-python = '>=3.11'
 urls.homepage = 'https://babyseg.io'
