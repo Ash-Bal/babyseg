@@ -267,13 +267,13 @@ class GroupNet(nn.Module):
 
         # Encoding convolutions.
         enc = []
-        for conv, down in zip(self.enc, self.down, strict=True):
+        for conv, down in zip(self.enc, self.down):
             x = conv(x)
             enc.append(x)
             x = down(x)
 
         # Decoding convolutions.
-        for conv, up in zip(self.dec, self.up, strict=True):
+        for conv, up in zip(self.dec, self.up):
             x = conv(x)
             x = torch.cat([enc.pop(), up(x)], dim=2)
 
