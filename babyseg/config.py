@@ -14,7 +14,7 @@ import sys
 
 logger = logging.getLogger(__name__)
 _cache = {}
-DEFAULTS = 'config/defaults.json'
+DEFAULTS = ''
 
 
 def load(*files):
