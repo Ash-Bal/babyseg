@@ -5,10 +5,10 @@ requires = ['setuptools']
 [project]
 authors = [{name = 'Malte Hoffmann'}]
 dependencies = [
-    'katy @ git+https://github.com/Ash-Bal/katy.git',
+    'katy @ git+https://github.com/Ash-Bal/katy.git@deeed61188943e672774c97fe91e0edc67e0a328s',
     'nibabel',
     'torch',
-    'voxel @ git+https://github.com/Ash-Bal/voxel.git',
+    'voxel @ git+https://github.com/Ash-Bal/voxel.git@1001aaa9f550c9ca89decbd079d5d188a31747d7',
     ]
 description = 'Brain segmentation across the first years of life'
 dynamic = ['version']
